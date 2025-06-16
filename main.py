@@ -54,7 +54,7 @@ def main():
         convert_To_Set_asteroids = set(asteroids_to_kill)
         convert_To_Set_bullets = set(bullets_to_kill)
         for i in convert_To_Set_asteroids:
-            i.kill()
+            i.split()
         for i in convert_To_Set_bullets:
             i.kill()
 
